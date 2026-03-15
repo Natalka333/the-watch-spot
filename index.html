@@ -19,71 +19,90 @@
   </head>
 
   <body>
-    <header class="header-section">
-      <div class="container">
-      <a class="header-link" href="./index.html"
-        ><img
-          class="header-img"
-          src="./images/header/logoheader.png.png"
-          alt="Diamond logo" width="19" height="19"
-        />thewatchspot</a
-      >
-      <nav class="header-nav">
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="./index.html">About us</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#catalog">Catalog</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#sale">sale</a>
-          </li>
-        </ul>
-      </nav>
+<header class="header">
+  <div class="container header-container">
+    
+    <nav class="header-nav">
+      
+      <a class="logo" href="./index.html">
+        <img
+          src="./images/header/logoheader.png"
+          alt="TheWatchSpot logo"
+          width="19"
+          height="19"
+        />
+        <span class="logo-text">thewatchspot</span>
+      </a>
 
-      <address class="address-header">
-        <a class="header-address-link" href="tel:+380684439426"
-          >+380 (68) 443-94-26</a
-        >
-      </address>
-      </div>
-    </header>
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about">About us</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#catalog">Catalog</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#sale">Sale</a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <address class="header-address">
+      <a class="address-link" href="tel:+380684439426">
+        +380 (68) 443-94-26
+      </a>
+    </address>
+
+  </div>
+</header>
 
     <main>
-      <section class="hero-section">
-        <div class="container">
-        <h1 class="hero-title">Welcome to our collection of premium watches</h1>
-        <p class="hero-text">
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <ul class="hero-list">
-          <li class="hero-item">
-            <img class="hero-img"
-              src="./images/hero/electronic.jpg.jpg"
-              alt="Electronic watch on the hand"
-              width="436"
-            />
-          </li>
-          <li class="hero-item">
-            <img src="./images/hero/chevron-left.png" alt="Left button" />
-          </li>
-          <li class="hero-item">
-            <img src="./images/hero/chevron-right.png" alt="Right button" />
-          </li>
-        </ul>
-        <img
-          class="hero-img"
-          src="./images/hero/mechanick.jpg.jpg"
-          alt="Mechanical watch on the hand"
-          width="676"
-        />
-        </div>
-      </section>
+<section class="hero-section">
+  <div class="container">
 
-      <section class="about-section section">
+    <div class="hero-top">
+      <h1 class="hero-title">
+        Welcome to our collection of premium watches
+      </h1>
+
+      <p class="hero-text">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones,
+        we have a watch to suit every taste and occasion.
+      </p>
+    </div>
+
+    <!-- дальше блок с картинками -->
+    <div class="hero-gallery">
+
+      <div class="hero-small">
+        <img
+          src="./images/hero/electronic.jpg"
+          alt="Electronic wristwatch on a hand"
+          width="436"
+        />
+
+        <div class="hero-controls">
+          <button class="hero-btn">‹</button>
+          <button class="hero-btn">›</button>
+        </div>
+
+      </div>
+
+      <img
+        class="hero-big"
+        src="./images/hero/mechanick.jpg"
+        alt="Mechanical wristwatch on a hand"
+        width="676"
+      />
+
+    </div>
+
+  </div>
+</section>
+
+      <section id="about" class="about-section section">
         <div class="container">
         <h2 class="about-title">About us</h2>
         <p class="about-text">
@@ -147,7 +166,10 @@
             <p class="catalog-text">Diver 300M Co-Axial Master Chronometer</p>
             <p class="catalog-text-price">€1400</p>
           </li>
-          <li class="catalog-item">
+          
+</ul>
+          <ul class="catalog-list">
+<li class="catalog-item">
             <img class="catalog-img"
               src="./images/catalog/clock5.png.png"
               alt="Police Taman men's wristwatch"
@@ -183,6 +205,9 @@
             <p class="catalog-text">Greenlane Watch By Police For Men</p>
             <p class="catalog-text-price">€1000</p>
           </li>
+          </ul>
+          
+          <ul class="catalog-list">
           <li class="catalog-item">
             <img class="catalog-img"
               src="./images/catalog/clock9.png.png"
@@ -192,6 +217,7 @@
             <p class="catalog-text">Squardrc 5402 Chrono</p>
             <p class="catalog-text-price">€359</p>
           </li>
+          
           <li class="catalog-item">
             <img class="catalog-img"
               src="./images/catalog/clock10.png.png"

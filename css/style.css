@@ -16,6 +16,7 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 h1,
@@ -44,38 +45,61 @@ body {
   padding-bottom: 48px;
 }
 /* =======HEADER======= */
-.header-section {
+
+.header {
   background: #141414;
 }
-.header-link {
+
+.header-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 80px;
+  padding-top: 34px;
+}
+
+.logo-text {
   font-size: 15px;
   letter-spacing: -0.03em;
   color: #fff;
 }
-.header-img {
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  padding-top: 38px;
 }
-.header-nav {
-}
-.header-list {
-}
-.header-item {
-}
-.header-link {
+
+.header-menu-link {
   font-size: 9px;
-  line-height: 1.33333;
+  line-height: 1.33;
   text-transform: uppercase;
-  text-align: center;
   color: #fff;
 }
-.address-header {
+
+.header-address {
+  font-style: normal;
+  padding-top: 38px;
 }
-.header-address-link {
+
+.address-link {
   font-size: 9px;
-  line-height: 1.33333;
+  line-height: 1.33;
   text-transform: uppercase;
-  text-align: center;
   color: #fff;
 }
+
 /* ======HERO ======*/
 .hero-section {
   background: #141414;
