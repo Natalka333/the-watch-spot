@@ -1,7 +1,8 @@
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -17,6 +18,7 @@ button {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -26,7 +28,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body {
@@ -42,12 +45,15 @@ body {
 }
 
 .section {
-  padding-bottom: 48px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 /* =======HEADER======= */
 
 .header {
   background: #141414;
+  padding-top: 34px;
+  padding-bottom: 98px;
 }
 
 .header-container {
@@ -94,22 +100,37 @@ body {
 }
 
 .address-link {
+  display: inline-block;
+  padding: 18px 35px;
+  min-width: 159px;
+  height: 48px;
+  border-radius: 8px;
   font-size: 9px;
   line-height: 1.33;
   text-transform: uppercase;
   color: #fff;
+  background: #1e2827;
 }
 
 /* ======HERO ======*/
 .hero-section {
   background: #141414;
+  padding-bottom: 80px;
 }
+
+.hero-top {
+  display: flex;
+  gap: 144px;
+  margin-bottom: 43px;
+}
+
 .hero-title {
   font-weight: 600;
   font-size: 60px;
   line-height: 1.03333;
   letter-spacing: -0.04em;
   color: #fff;
+  max-width: 750px;
 }
 
 .hero-text {
@@ -118,36 +139,64 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fff;
+  max-width: 282px;
 }
 
-.hero-list {
+.hero-gallery {
+  display: flex;
+  gap: 64px;
 }
-.hero-item {
-}
-.hero-img {
+
+.hero-small {
+  align-self: center;
 }
 
 /* ======ABOUT====== */
 .about-section {
   border: 2px solid black;
-  padding-top: 48px;
 }
 
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 .about-title {
   font-weight: 600;
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: #1e2827;
+  max-width: 174px;
+  margin-right: 110px;
 }
-.about-text {
+
+.about-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.about-text-one {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #141414;
+  max-width: 439px;
 }
+
+.about-text-two {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #141414;
+  max-width: 380px;
+}
+
 .about-img {
+  margin-left: auto;
 }
 
 /* ======CATALOG====== */
@@ -161,11 +210,18 @@ body {
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: #1e2827;
+  margin-bottom: 64px;
 }
 
 .catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 64px;
+  margin-bottom: 80px;
 }
 .catalog-item {
+  width: calc((100% - 72px) / 4);
 }
 .catalog-img {
 }
@@ -174,6 +230,7 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #141414;
+  margin-bottom: 4px;
 }
 
 .catalog-text-price {
@@ -189,67 +246,127 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  min-width: 122px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 18px 35px;
+  background: #1e2827;
+  display: block;
+  margin-left: auto;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  border: 1px solid #fff;
 }
 
 /* ======NEW_WATCH===== */
 .new-watch-section {
   border: 2px solid black;
 }
+
 .new-watch-text {
   font-weight: 300;
   font-size: 12px;
   line-height: 1.16667;
-  letter-spacing: 0.06em;
   color: rgba(20, 20, 20, 0.4);
+  max-width: 85px;
+  margin-bottom: 8px;
 }
+
 .new-watch-title {
   font-weight: 600;
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: #1e2827;
+  max-width: 448px;
+  margin-bottom: 80px;
 }
-.new-watch-img {
+
+.new-watch-img-wrap {
+  display: flex;
+  gap: 24px;
+}
+.new-watch-image {
 }
 
 /* =======SALE======= */
 .sale-section {
   border: 2px solid black;
+  padding-top: 80px;
+  padding-bottom: 160px;
 }
+.sale-content {
+  display: flex;
+  gap: 40px;
+}
+
+.sale-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.sale-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sale-info {
+  max-width: 369px;
+}
+
+.sale-price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+}
+
 .sale-title {
   font-weight: 600;
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: #1e2827;
+  max-width: 84px;
+  margin-bottom: 80px;
 }
-.sale-list {
-}
+
 .sale-item {
 }
 .sale-img {
 }
 .sale-subtitle {
-  font-size: 38px;
-  line-height: 1.05263;
+  font-size: 37px;
+  line-height: 1.05;
   letter-spacing: -0.02em;
   color: #141414;
+  max-width: 369px;
+  margin-bottom: 8px;
 }
 .sale-text {
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 16px;
 }
 
-.sale-text-price-after {
+.new-price {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.33333;
   letter-spacing: -0.02em;
   color: #141414;
 }
-.sale-text-price {
+.old-price {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
@@ -265,8 +382,25 @@ body {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #141414;
+  border-top: 1px solid #141414;
+  padding: 8px 0px;
+  width: 369px;
 }
 
+.sale-text-description {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 20px;
+}
+
+.sale-text-features {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  color: rgba(20, 20, 20, 0.5);
+}
 /* ======FOOTER====== */
 
 .footer-section {
