@@ -370,24 +370,28 @@
     </main>
 
     <footer class="footer-section">
-      <div class="container">
-        <img
-          class="footer-img"
-          src="./images/footer/logo-footer.png"
-          alt="Diamond logo"
-          width="50"
-          height="50"
-        />
-        <address class="address-footer">
-          <a class="footer-link-tel" href="tel:+380684439426"
-            >+380 (68) 443-94-26</a
-          ><br />
-          <div class="address-city">
-            1678 S.Pioneer Road <br />
-            Salt Lake City <br />
-            UT 84104
-          </div>
-        </address>
+      <div class="container footer-container">
+        <div class="footer-address">
+          <a href="./index.html" class="footer-logo">
+            <img
+              src="./images/footer/logo-footer.png"
+              alt="The Watch Spot logo"
+              width="50"
+              height="50"
+            />
+          </a>
+          <address class="address-footer">
+            <a class="footer-link-tel" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            ><br />
+            <p class="address-city">
+              1678 S.Pioneer Road <br />
+              Salt Lake City <br />
+              UT 84104
+            </p>
+          </address>
+        </div>
+
         <nav class="footer-nav">
           <ul class="footer-list">
             <li class="footer-item">
@@ -401,12 +405,14 @@
             </li>
           </ul>
         </nav>
+
         <ul class="footer-networks">
           <li class="footer-networks-item">
             <a
               class="footer-networks-link"
               href="https://www.facebook.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="footer-networks-img"
@@ -422,6 +428,7 @@
               class="footer-networks-link"
               href="https://www.instagram.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="footer-networks-img"
@@ -437,6 +444,7 @@
               class="footer-networks-link"
               href="https://www.youtube.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="footer-networks-img"
@@ -448,11 +456,13 @@
             </a>
           </li>
         </ul>
-        <p class="footer-networks-text-left">
-          ©2022 The Watch Spot. All rights reserved.
-        </p>
-        <p class="footer-networks-text-right">Privacy Policy</p>
-        <p class="footer-networks-text-right">Terms of Service</p>
+        <div class="footer-text">
+          <p class="footer-networks-text-left">
+            ©2022 The Watch Spot. All rights reserved.
+          </p>
+          <a href="#" class="footer-policy">Privacy Policy</a>
+          <a href="#" class="footer-policy-service">Terms of Service</a>
+        </div>
       </div>
     </footer>
   </body>
