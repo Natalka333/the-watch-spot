@@ -22,8 +22,12 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo" href="./index.html">
+          <a class="logo" href="">
+            <!-- <svg width="19" height="19">
+              <use href="./images/icons/icons.svg#icon-logo"></use>
+            </svg> -->
             <img
+              class="header-img"
               src="./images/header/logoheader.png"
               alt="TheWatchSpot logo"
               width="19"
@@ -72,16 +76,43 @@
           <div class="hero-gallery">
             <div class="hero-small">
               <img
+                class="hero-small-img"
                 src="./images/hero/electronic.jpg"
                 alt="Electronic wristwatch on a hand"
                 width="436"
               />
-              <div class="hero-controls">
-                <button class="hero-btn">‹</button>
-                <button class="hero-btn">›</button>
+              <div class="slider-controls">
+                <button
+                  class="slider-btn prev"
+                  type="button"
+                  aria-label="Previous slide"
+                >
+                  <svg width="24" height="24">
+                    <use
+                      href="./images/icons/icons.svg#icon-chevron-left"
+                    ></use>
+                  </svg>
+                </button>
+
+                <button
+                  class="slider-btn next"
+                  type="button"
+                  aria-label="Next slide"
+                >
+                  <svg width="24" height="24">
+                    <use
+                      href="./images/icons/icons.svg#icon-chevron-left-1"
+                    ></use>
+                  </svg>
+                </button>
+
+                <p class="slider-counter">
+                  <span class="current">01</span>
+                  <span class="line"></span>
+                  <span class="total">05</span>
+                </p>
               </div>
             </div>
-
             <img
               class="hero-big"
               src="./images/hero/mechanick.jpg"
@@ -374,6 +405,7 @@
         <div class="footer-address">
           <a href="./index.html" class="footer-logo">
             <img
+              class="footer-img"
               src="./images/footer/logo-footer.png"
               alt="The Watch Spot logo"
               width="50"
@@ -414,13 +446,9 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="footer-networks-img"
-                src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04facebook.svg"
-                alt="Facebook"
-                width="28"
-                height="28"
-              />
+              <svg width="28" height="28">
+                <use href="./images/icons/icons.svg#icon-facebook"></use>
+              </svg>
             </a>
           </li>
           <li class="footer-networks-item">
@@ -430,13 +458,9 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="footer-networks-img"
-                src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04insta.svg"
-                alt="Instagram"
-                width="28"
-                height="28"
-              />
+              <svg width="28" height="28">
+                <use href="./images/icons/icons.svg#icon-instagram"></use>
+              </svg>
             </a>
           </li>
           <li class="footer-networks-item">
@@ -446,13 +470,9 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="footer-networks-img"
-                src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04youtube.svg"
-                alt="YouTube"
-                width="28"
-                height="28"
-              />
+              <svg width="28" height="28">
+                <use href="./images/icons/icons.svg#icon-youtube"></use>
+              </svg>
             </a>
           </li>
         </ul>
