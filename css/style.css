@@ -127,7 +127,7 @@ body {
 .hero-title {
   font-weight: 600;
   font-size: 60px;
-  line-height: 1.03333;
+  line-height: 1.03;
   letter-spacing: -0.04em;
   color: #fff;
   max-width: 750px;
@@ -136,7 +136,7 @@ body {
 .hero-text {
   font-weight: 300;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #fff;
   max-width: 282px;
@@ -152,9 +152,6 @@ body {
 }
 
 /* ======ABOUT====== */
-.about-section {
-  border: 2px solid black;
-}
 
 .about-container {
   display: flex;
@@ -200,9 +197,6 @@ body {
 }
 
 /* ======CATALOG====== */
-.catalog-section {
-  border: 2px solid black;
-}
 
 .catalog-title {
   font-weight: 600;
@@ -220,14 +214,14 @@ body {
   row-gap: 64px;
   margin-bottom: 80px;
 }
+
 .catalog-item {
   width: calc((100% - 72px) / 4);
 }
-.catalog-img {
-}
+
 .catalog-text {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #141414;
   margin-bottom: 4px;
@@ -235,14 +229,14 @@ body {
 
 .catalog-text-price {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
 }
 .catalog-btn {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
@@ -261,14 +255,11 @@ body {
 }
 
 /* ======NEW_WATCH===== */
-.new-watch-section {
-  border: 2px solid black;
-}
 
 .new-watch-text {
   font-weight: 300;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   color: rgba(20, 20, 20, 0.4);
   max-width: 85px;
   margin-bottom: 8px;
@@ -288,12 +279,9 @@ body {
   display: flex;
   gap: 24px;
 }
-.new-watch-image {
-}
 
 /* =======SALE======= */
 .sale-section {
-  border: 2px solid black;
   padding-top: 80px;
   padding-bottom: 160px;
 }
@@ -325,8 +313,11 @@ body {
 }
 
 .old-price {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
   text-decoration: line-through;
-  color: grey;
+  color: rgba(20, 20, 20, 0.5);
 }
 
 .sale-title {
@@ -339,10 +330,6 @@ body {
   margin-bottom: 80px;
 }
 
-.sale-item {
-}
-.sale-img {
-}
 .sale-subtitle {
   font-size: 37px;
   line-height: 1.05;
@@ -353,7 +340,7 @@ body {
 }
 .sale-text {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
   margin-bottom: 16px;
@@ -362,23 +349,23 @@ body {
 .new-price {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   color: #141414;
 }
+
 .old-price {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   text-decoration: line-through;
   color: rgba(20, 20, 20, 0.5);
 }
 
 .sale-subtitle-title {
-  font-weight: 400;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #141414;
@@ -389,7 +376,7 @@ body {
 
 .sale-text-description {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
   margin-bottom: 20px;
@@ -397,7 +384,7 @@ body {
 
 .sale-text-features {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
 }
@@ -427,14 +414,14 @@ body {
 
 .footer-link-tel {
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   text-transform: uppercase;
   color: #fff;
 }
 
 .address-city {
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   color: #fff;
   margin-top: 20px;
@@ -446,9 +433,8 @@ body {
   gap: 18px;
 }
 .footer-text {
-  width: 100%; /* занимает всю строку */
+  width: 100%;
   display: flex;
-
   align-items: center;
 }
 
@@ -458,20 +444,20 @@ body {
 
 .footer-link {
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #fff;
 }
+
 .footer-networks {
   display: flex;
   gap: 16px;
 }
 
 .footer-networks-text-left {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #c6cdd1;
   margin-right: auto;
@@ -479,15 +465,16 @@ body {
 
 .footer-policy {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: right;
   color: #c6cdd1;
   margin-right: 18px;
 }
+
 .footer-policy-service {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: right;
   color: #c6cdd1;
