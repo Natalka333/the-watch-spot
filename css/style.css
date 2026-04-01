@@ -52,19 +52,27 @@ body {
 
 .header {
   background: #141414;
-  padding-top: 34px;
+  margin: 0 auto;
+  max-width: 1440px;
   padding-bottom: 98px;
 }
 
 .header-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
+  justify-content: space-between;
+  width: 383px;
+}
+
+.header-address {
+  font-style: normal;
+  padding-top: 20px;
 }
 
 .logo {
@@ -100,11 +108,6 @@ body {
   color: #fff;
 }
 
-.header-address {
-  font-style: normal;
-  padding-top: 38px;
-}
-
 .address-link {
   display: inline-block;
   padding: 18px 35px;
@@ -120,6 +123,9 @@ body {
 
 /* ======HERO ======*/
 .hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-size: cover;
   background: #141414;
   padding-bottom: 80px;
 }
@@ -164,9 +170,6 @@ body {
 .slider-controls {
   display: flex;
   max-width: 436px;
-}
-
-.slider-btn {
 }
 
 .prev {
