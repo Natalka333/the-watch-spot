@@ -953,5 +953,93 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <div class="left-part">
+          <img
+            class="catalog-img"
+            src="./images/catalog/clock1.png"
+            alt="Tube Watch S42 With Black Case"
+            width="276"
+          />
+          <p class="catalog-text">Tube Watch S42 Date Steel With Black Case</p>
+          <p class="catalog-text-price">€395</p>
+        </div>
+        <div class="right-part">
+          <button class="modal-close-btn" type="button">
+            <svg
+              class="modal-close-icon"
+              width="24"
+              height="24"
+              aria-label="close icon"
+            >
+              <use href="./images/icons/icons.svg#icon-x"></use>
+            </svg>
+          </button>
+
+          <!-- FORM -->
+          <form class="contact-form">
+            <div class="contact-form-wrap">
+              <label for="user-name" class="contact-form-label"
+                >Full name</label
+              >
+              <input
+                type="text"
+                name="user-name"
+                class="contact-form-input"
+                placeholder="Enter your full name"
+                id="user-name"
+                pattern="[a-zA-Zа-яА-ЯЁёіІєЄїЇ']+"
+                title="Nataly"
+                required
+              />
+            </div>
+            <div class="contact-form-wrap">
+              <label for="user-email" class="contact-form-label">Email</label>
+              <input
+                type="email"
+                name="user-email"
+                class="contact-form-input"
+                placeholder="Enter your email"
+                id="user-email"
+                required
+              />
+            </div>
+            <div class="contact-form-wrap">
+              <label for="user-card" class="contact-form-label"
+                >Card number</label
+              >
+              <input
+                type="text"
+                name="user-card"
+                class="contact-form-input"
+                placeholder="Enter card"
+                id="user-card"
+                pattern="[0-9]{16}"
+                title="xxxxxxxxxxxxxxxx"
+                required
+              />
+            </div>
+            <div class="contact-form-wrap">
+              <label for="user-comment" class="contact-form-label"
+                >Comments</label
+              >
+              <textarea
+                type="text"
+                name="user-comment"
+                class="contact-form-comment"
+                id="user-comment"
+              ></textarea>
+            </div>
+            <button class="contact-submit-btn" type="submit">submit</button>
+            <p class="contact-comment">
+              By clicking on “Submit” button, you agree to our
+              <a href="" class="contact-comment-span">Privacy Policy</a>, and
+              allow Promodo to use this information for marketing purposes.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
