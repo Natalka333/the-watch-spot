@@ -98,7 +98,6 @@ body {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding-top: 38px;
 }
 
 .header-menu-link {
@@ -106,6 +105,10 @@ body {
   line-height: 1.33;
   text-transform: uppercase;
   color: #fff;
+  position: relative;
+  display: block;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .address-link {
@@ -123,18 +126,17 @@ body {
 
 /* ======HERO ======*/
 .hero-section {
-  /* max-width: 1440px; */
   margin: 0 auto;
   background-size: cover;
   background: #141414;
   padding-bottom: 80px;
 }
 
-.hero-top {
+/* .hero-top {
   display: flex;
   gap: 144px;
   margin-bottom: 43px;
-}
+} */
 
 .hero-title {
   font-weight: 600;
@@ -159,9 +161,9 @@ body {
   gap: 64px;
 }
 
-.hero-small {
+/* .hero-small {
   align-self: center;
-}
+} */
 
 .hero-small-img {
   margin-bottom: 20px;
@@ -172,7 +174,7 @@ body {
   max-width: 436px;
 }
 
-.prev {
+/* .prev {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,9 +186,9 @@ body {
   height: 40px;
   fill: rgba(255, 255, 255, 0.5);
   background: #141414;
-}
+} */
 
-.next {
+/* .next {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,7 +200,7 @@ body {
   margin-right: 262px;
   fill: rgba(255, 255, 255, 0.5);
   background: #141414;
-}
+} */
 
 .slider-counter {
   font-weight: 400;

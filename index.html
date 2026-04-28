@@ -63,6 +63,111 @@
     </header>
 
     <main>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <!-- <div class="hero-left"> -->
+          <h1 class="hero-title">
+            Welcome to our collection of premium watches
+          </h1>
+          <div class="hero-wrap">
+            <picture>
+              <source
+                srcset="
+                  ./images/hero/hero-small-desctop.jpg    1x,
+                  ./images/hero/hero-small-desctop@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./images/hero/hero-small-tablet.jpg 1x,
+                  ./images/hero/hero-small-tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/hero/hero-small-mobile.jpg 1x,
+                  ./images/hero/hero-small-mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="hero-small-img"
+                src="./images/hero/electronic.jpg"
+                alt="Electronic wristwatch on a hand"
+              />
+            </picture>
+
+            <div class="slider-controls">
+              <button
+                class="slider-btn prev"
+                type="button"
+                aria-label="Previous slide"
+              >
+                <svg width="24" height="24">
+                  <use href="./images/icons/icons.svg#icon-chevron-left"></use>
+                </svg>
+              </button>
+              <button
+                class="slider-btn next"
+                type="button"
+                aria-label="Next slide"
+              >
+                <svg width="24" height="24">
+                  <use
+                    href="./images/icons/icons.svg#icon-chevron-left-1"
+                  ></use>
+                </svg>
+              </button>
+              <p class="slider-counter">
+                <span class="current">01</span>
+                <span class="line"></span>
+                <span class="total">05</span>
+              </p>
+            </div>
+          </div>
+          <!-- </div> -->
+
+          <!-- <div class="hero-right"> -->
+          <p class="hero-text">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+          <div class="hero-gallery">
+            <picture>
+              <source
+                srcset="
+                  ./images/hero/hero-big-desctop.jpg    1x,
+                  ./images/hero/hero-big-desctop@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./images/hero/hero-big-tablet.jpg 1x,
+                  ./images/hero/hero-big-tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/hero/hero-big-mobile.jpg 1x,
+                  ./images/hero/hero-big-mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="hero-big"
+                src="./images/hero/mechanick.jpg"
+                alt="Mechanical wristwatch on a hand"
+              />
+            </picture>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
       <!-- <section class="hero-section">
         <div class="container hero-container">
           <div class="hero-top">
@@ -75,17 +180,38 @@
               your personality and lifestyle. From classic designs to modern
               ones, we have a watch to suit every taste and occasion.
             </p>
-          </div> -->
+          </div>
 
-      <!-- дальше блок с картинками -->
-      <!-- <div class="hero-gallery">
+          <div class="hero-gallery">
             <div class="hero-small">
-              <img
-                class="hero-small-img"
-                src="./images/hero/electronic.jpg"
-                alt="Electronic wristwatch on a hand"
-                width="436"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/hero/hero-small-desctop.jpg    1x,
+                    ./images/hero/hero-small-desctop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/hero/hero-small-tablet.jpg 1x,
+                    ./images/hero/hero-small-tablet.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/hero/hero-small-mobile.jpg 1x,
+                    ./images/hero/hero-small-mobile.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="hero-small-img"
+                  src="./images/hero/electronic.jpg"
+                  alt="Electronic wristwatch on a hand"
+                />
+              </picture>
               <div class="slider-controls">
                 <button
                   class="slider-btn prev"
@@ -118,11 +244,65 @@
                 </p>
               </div>
             </div>
+            <picture>
+              <source
+                srcset="
+                  ./images/hero/hero-big-desctop.jpg    1x,
+                  ./images/hero/hero-big-desctop@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./images/hero/hero-big-tablet.jpg 1x,
+                  ./images/hero/hero-big-tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/hero/hero-big-mobile.jpg 1x,
+                  ./images/hero/hero-big-mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="hero-big"
+                src="./images/hero/mechanick.jpg"
+                alt="Mechanical wristwatch on a hand"
+              />
+            </picture>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section id="about" class="about-section section">
+        <div class="container about-container">
+          <h2 class="about-title">About us</h2>
+
+          <div class="about-content">
+            <div class="about-wrap">
+              <p class="about-text-one">
+                Welcome to our premium watch collection, where luxury and style
+                meet functionality and precision. Our selection of timepieces
+                embodies the very best in Swiss craftsmanship and engineering,
+                ensuring that you'll always have a reliable and stylish
+                accessory on your wrist.
+              </p>
+              <p class="about-text-two">
+                At our premium watch collection, we believe that a watch is more
+                than just a timekeeping device – it's a statement piece that
+                reflects your personality and style. So why settle for anything
+                less than the best? Browse our collection today and discover the
+                perfect watch for you.
+              </p>
+            </div>
+
             <img
-              class="hero-big"
-              src="./images/hero/mechanick.jpg"
-              alt="Mechanical wristwatch on a hand"
-              width="676"
+              class="about-img"
+              src="./images/about/watch.jpg"
+              alt="Watch in a gold case"
+              width="892"
             />
           </div>
         </div>
@@ -798,11 +978,11 @@
         </div>
       </section> -->
 
-      <!-- <section id="sale" class="sale-section">
+      <!-- <section id="sale" class="sale-section section">
         <div class="container sale-container">
           <h2 class="sale-title">Sale</h2>
 
-          <div class="sale-content"> -->
+          <div class="sale-content section"> -->
       <!-- ЛЕВАЯ ЧАСТЬ -->
       <!-- <div class="sale-gallery">
               <ul class="sale-list">
@@ -884,7 +1064,7 @@
       </section> -->
     </main>
 
-    <!-- <footer class="footer-section">
+    <!-- <footer class="footer-section section">
       <div class="container footer-container">
         <div class="footer-address">
           <a href="./index.html" class="footer-logo">
