@@ -164,11 +164,12 @@
         </div>
       </section>
 
-      <!-- <section id="about" class="about-section section">
+      <section id="about" class="about-section section">
         <div class="container about-container">
-          <h2 class="about-title">About us</h2>
-
           <div class="about-content">
+            <div class="about-wrape-title">
+              <h2 class="about-title">About us</h2>
+            </div>
             <div class="about-wrap">
               <p class="about-text-one">
                 Welcome to our premium watch collection, where luxury and style
@@ -185,50 +186,39 @@
                 perfect watch for you.
               </p>
             </div>
-
+          </div>
+          <picture>
+            <source
+              srcset="
+                ./images/about/gif-desctop.jpg    1x,
+                ./images/about/gif@2x-desctop.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./images/about/gif-tablet.jpg    1x,
+                ./images/about/gif@2x-tablet.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/about/gif-mobile.jpg    1x,
+                ./images/about/gif@2x-mobile.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
             <img
               class="about-img"
-              src="./images/about/watch.jpg"
+              src="./images/about/watchspot.gif"
               alt="Watch in a gold case"
-              width="892"
             />
-          </div>
+          </picture>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section id="about" class="about-section section">
-        <div class="container about-container">
-          <h2 class="about-title">About us</h2>
-
-          <div class="about-content">
-            <div class="about-wrap">
-              <p class="about-text-one">
-                Welcome to our premium watch collection, where luxury and style
-                meet functionality and precision. Our selection of timepieces
-                embodies the very best in Swiss craftsmanship and engineering,
-                ensuring that you'll always have a reliable and stylish
-                accessory on your wrist.
-              </p>
-              <p class="about-text-two">
-                At our premium watch collection, we believe that a watch is more
-                than just a timekeeping device – it's a statement piece that
-                reflects your personality and style. So why settle for anything
-                less than the best? Browse our collection today and discover the
-                perfect watch for you.
-              </p>
-            </div>
-
-            <img
-              class="about-img"
-              src="./images/about/watch.jpg"
-              alt="Watch in a gold case"
-              width="892"
-            />
-          </div>
-        </div>
-      </section> -->
-
-      <!-- <section id="catalog" class="catalog-section section">
+      <section id="catalog" class="catalog-section section">
         <div class="container catalog-container">
           <h2 class="catalog-title">Catalog</h2>
           <ul class="catalog-list">
@@ -236,11 +226,11 @@
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock1@2x.png 2x"
                   src="./images/catalog/clock1.png"
                   alt="Tube Watch S42 With Black Case"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -279,20 +269,22 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">
-                Tube Watch S42 Date Steel With Black Case
-              </p>
-              <p class="catalog-text-price">€395</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">
+                  Tube Watch S42 Date Steel With Black Case
+                </p>
+                <p class="catalog-text-price">€395</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock2@2x.png 2x"
                   src="./images/catalog/clock2.png"
                   alt="Police Avondale men's wristwatch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -331,18 +323,20 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Avondale Watch Police For Men</p>
-              <p class="catalog-text-price">€800</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Avondale Watch Police For Men</p>
+                <p class="catalog-text-price">€800</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock3@2x.png 2x"
                   src="./images/catalog/clock3.png"
                   alt="Omega Seamaster Diver 300M chronograph watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -381,20 +375,22 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">
-                Diver 300M Co‑Axial Master Chronometer Chronograph
-              </p>
-              <p class="catalog-text-price">€600</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">
+                  Diver 300M Co‑Axial Master Chronometer
+                </p>
+                <p class="catalog-text-price">€600</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock4@2x.png 2x"
                   src="./images/catalog/clock4.png"
                   alt="Omega Seamaster Diver 300M men's watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -433,18 +429,22 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Diver 300M Co-Axial Master Chronometer</p>
-              <p class="catalog-text-price">€1400</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">
+                  Diver 300M Co-Axial Master Chronometer
+                </p>
+                <p class="catalog-text-price">€1400</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock5@2x.png 2x"
                   src="./images/catalog/clock5.png"
                   alt="Police Taman men's wristwatch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -483,18 +483,20 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Taman Watch By Police For Men</p>
-              <p class="catalog-text-price">€500</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Taman Watch By Police For Men</p>
+                <p class="catalog-text-price">€500</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock6@2x.png 2x"
                   src="./images/catalog/clock6.png"
                   alt="Police Malawi men's watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -533,18 +535,20 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Malawi Watch Police For Men</p>
-              <p class="catalog-text-price">€555</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Malawi Watch Police For Men</p>
+                <p class="catalog-text-price">€555</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock7@2x.png 2x"
                   src="./images/catalog/clock7.png"
                   alt="Omega Seamaster Diver 300M watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -583,18 +587,22 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Diver 300M Co-Axial Master Chronometer</p>
-              <p class="catalog-text-price">€1200</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">
+                  Diver 300M Co-Axial Master Chronometer
+                </p>
+                <p class="catalog-text-price">€1200</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock8@2x.png 2x"
                   src="./images/catalog/clock8.png"
                   alt="Police Greenlane men's watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -633,18 +641,23 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Greenlane Watch By Police For Men</p>
-              <p class="catalog-text-price">€1000</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Greenlane Watch By Police For Men</p>
+                <p class="catalog-text-price">€1000</p>
+              </div>
             </li>
+
+            <!-- Без этих 4 часов в моб версии -->
+            <div class="exclude-mobile-version">
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock9@2x.png 2x"
                   src="./images/catalog/clock9.png"
                   alt="Squardrc 5402 chronograph watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -683,18 +696,20 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Squardrc 5402 Chrono</p>
-              <p class="catalog-text-price">€359</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Squardrc 5402 Chrono</p>
+                <p class="catalog-text-price">€359</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock10@2x.png 2x"
                   src="./images/catalog/clock10.png"
                   alt="Omega Seamaster Diver 300M chronograph watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -733,20 +748,22 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">
-                Diver 300M Co‑Axial Master Chronometer Chronograph
-              </p>
-              <p class="catalog-text-price">€400</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">
+                  Diver 300M Co‑Axial Master Chronometer
+                </p>
+                <p class="catalog-text-price">€400</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock11@2x.png 2x"
                   src="./images/catalog/clock11.png"
                   alt="Citizen wristwatch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -785,18 +802,20 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Citizen</p>
-              <p class="catalog-text-price">€519</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Citizen</p>
+                <p class="catalog-text-price">€519</p>
+              </div>
             </li>
             <li class="catalog-item">
               <div class="overlay-catalog">
                 <img
                   class="catalog-img"
+                  srcset="./images/catalog/clock12@2x.png 2x"
                   src="./images/catalog/clock12.png"
                   alt="Armani Exchange men's watch"
-                  width="276"
                 />
-                <div class="catalog-wrap">
+                <div class="overlay-catalog-wrap">
                   <div class="overlay-sale-description">
                     <h4 class="overlay-sale-subtitle-title">DESCRIPTION</h4>
                     <p class="overlay-sale-text-description">
@@ -835,13 +854,16 @@
                   </div>
                 </div>
               </div>
-              <p class="catalog-text">Armani Exchange</p>
-              <p class="catalog-text-price">€400</p>
+              <div class="catalog-wrape-text">
+                <p class="catalog-text">Armani Exchange</p>
+                <p class="catalog-text-price">€400</p>
+              </div>
             </li>
           </ul>
           <button class="catalog-btn" type="button">Buy now</button>
+          </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- <section class="new-watch-section section">
         <div class="container new-watch-container">
