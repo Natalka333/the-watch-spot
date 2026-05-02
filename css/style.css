@@ -919,6 +919,7 @@ body {
   letter-spacing: -0.02em;
   color: #141414;
   margin-bottom: 8px;
+  width: 335px;
 }
 
 .sale-text {
@@ -948,6 +949,10 @@ body {
   letter-spacing: -0.02em;
   text-decoration: line-through;
   color: rgba(20, 20, 20, 0.5);
+}
+
+.sale-info {
+  width: 335px;
 }
 
 .sale-subtitle-title {
@@ -996,20 +1001,23 @@ body {
     max-width: 146px;
   }
 
+  .sale-info {
+    width: 574px;
+  }
+
+  .sale-subtitle-title {
+    width: 572px;
+  }
+
   .sale-subtitle {
-    font-size: 38px;
+    font-size: 36px;
     line-height: 1.05263;
     letter-spacing: -0.02em;
+    width: 572px;
   }
 }
 
 @media only screen and (max-width: 1279px) {
-  .sale-info {
-    width: 574px;
-  }
-  .sale-subtitle-title {
-    width: 572px;
-  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -1019,6 +1027,13 @@ body {
   }
 
   .sale-info {
+    width: 369px;
+  }
+
+  .sale-subtitle {
+    font-size: 36px;
+    line-height: 1.05263;
+    letter-spacing: -0.02em;
     width: 369px;
   }
 
